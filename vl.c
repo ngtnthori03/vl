@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 struct vl {
-  voic* valuevls;
+  void* value;
   struct vl* vls;
 
   enum vl_trait {
